@@ -19,6 +19,9 @@ After cloning this repository, just `use` the module of your choice.  E.g.
 
 The source code for each module will contain a detailed explanation of what it does.
 
+You should also see a module_example.stl file for each module, which you can view directly
+on github to see what sort of things the module can do for you.
+
 ## How to Use: Things
 
 The easiest way to use these Things is to find those with a link at the top of the file
