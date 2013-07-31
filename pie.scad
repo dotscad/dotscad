@@ -50,7 +50,7 @@ module pie(radius, angle, height, spin=0) {
  * is imported into your own project via the `use` statement.
  */
 pie_example();
-module pie_example($fn=100) {
+module pie_example($fn=50) {
     union() {
         pie(40, 45, 5);
         rotate([0,0,-5]) difference() {
