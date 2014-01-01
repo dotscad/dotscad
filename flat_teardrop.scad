@@ -3,11 +3,13 @@
  *
  * A simple intersection method to implement a flat or truncated teardrop.
  *
- * The 45 degree slope of the sides of a teardrop shape are easier for most printers to
- * produce than a normal circular hole, but the pointy tip of teardrop module in
- * [MCAD](https://github.com/SolidCode/MCAD) is unnecessary.  By expanding on the
- * teardrop module in MCAD, this module produces a the best printable shape while
- * diverging as little as possible from the desired shape of a circular hole.
+ * The 45 degree slope of the sides of a teardrop shape are easier for most printers
+ * to produce than a normal circular hole, but the pointy tip of teardrop module in
+ * [MCAD](https://github.com/SolidCode/MCAD) is unnecessary for small holes, and can
+ * use up valuable overhead clearance that you might need to keep your part small.
+ * By expanding on the teardrop module in MCAD, this module produces a the best 
+ * printable shape while diverging as little as possible from the desired shape of a
+ * circular hole.
  *
  * This openSCAD library is part of the [dotscad](https://github.com/dotscad/dotscad)
  * project.
