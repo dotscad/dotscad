@@ -5,14 +5,14 @@ users to showcase their works and make them available for other people to use, m
 and enhance.
 
 This repository contains a set of module files intended to supplement those available elsewhere
-in the community (e.g. [MCAD](https://github.com/SolidCode/MCAD)).
+in the community (e.g. [MCAD](https://github.com/openscad/MCAD)).
 
 Other repositories in this organization contain Things organized into submodules by theme/category
 (e.g. photography or toy trains), so please browse toward whichever strikes your fancy.
 
 ## How to Use: modules
 
-After cloning this repository, just `use` the module of your choice.  E.g.
+After cloning this repository into the correct [library location for your operating system](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Libraries), just `use` the module of your choice.  E.g.
 
     use <dotscad/pie.scad>;
     pie(40, 45, 5);
