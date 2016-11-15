@@ -22,7 +22,7 @@ module on_arc(radius, angle) {
     y = radius * sin(angle);
     translate([x,y,0])
         rotate([0,0,-angle])
-            child(0);
+            children();
 }
 
 /*
